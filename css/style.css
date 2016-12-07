@@ -129,6 +129,11 @@ img {
 		width: 800px;
 	}
 }
+@media (min-width: 900px) { 
+	#adbox > div {
+		width: 900px;
+	}
+}
 
 #adbox > div img {
 	float: right;
@@ -176,6 +181,13 @@ img {
 	}
 }
 @media (min-width: 768px) { 
+	#contents {
+		width: 768px;
+		margin: 0 auto;
+		padding: 20px 40px;
+	}
+}
+@media (min-width: 880px) { 
 	#contents {
 		width: 880px;
 		margin: 0 auto;
@@ -227,6 +239,12 @@ p a {
 @media (min-width: 768px) { 
 	#contents .features {
 		width: 768px;
+	margin: 0 auto;
+	}
+}
+@media (min-width: 880px) { 
+	#contents .features {
+		width: 810px;
 	margin: 0 auto;
 	}
 }
