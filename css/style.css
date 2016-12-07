@@ -118,6 +118,18 @@ img {
 	margin: 0 auto;
 	padding: 0 80px;
 }
+
+@media (max-width: 768px) { 
+	#adbox > div {
+		width: 100%
+	}
+}
+@media (min-width: 768px) { 
+	#adbox > div {
+		width: 800px;
+	}
+}
+
 #adbox > div img {
 	float: right;
 	margin-left: 60px;
@@ -157,6 +169,20 @@ img {
 	margin: 0 auto;
 	padding: 20px 40px;
 }
+
+@media (max-width: 768px) { 
+	#contents {
+		width: 100%
+	}
+}
+@media (min-width: 768px) { 
+	#contents {
+		width: 880px;
+		margin: 0 auto;
+		padding: 20px 40px;
+	}
+}
+
 h1 {
 	color: #3e3e3e;
 	font-size: 30px;
@@ -192,6 +218,19 @@ p a {
 	width: 810px;
 	margin: 0 auto;
 }
+
+@media (max-width: 768px) { 
+	#contents .features {
+		width: 100%
+	}
+}
+@media (min-width: 768px) { 
+	#contents .features {
+		width: 768px;
+	margin: 0 auto;
+	}
+}
+
 .features > div {
 	display: inline-block;
 	margin: 0 0 10px;
